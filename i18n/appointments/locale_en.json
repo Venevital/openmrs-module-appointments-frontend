@@ -194,6 +194,7 @@
   "APPOINTMENT_NOTES": "Notes",
   "TODAY_LABEL": "Today",
   "APPOINTMENT_DATE_LABEL": "Appointment date",
+  "REGULAR_APPOINTMENT_LABEL": "Regular Appointment",
   "RECURRING_APPOINTMENT_LABEL": "Recurring Appointment",
   "WALK_IN_APPOINTMENT_LABEL": "Walk-in Appointment",
   "PLAN_LABEL": "Plan",
@@ -271,5 +272,6 @@
   "TELECONSULTATION_APPOINTMENT_BOOKING_MESSAGE": "A teleconsultation appointment for #patientName, #patientId on #dateTime for #service is booked at #clinicName. Please click on the link #meetingLink on #dateTime to join the consultation. For any queries call us on #helpDeskNumber.",
   "PROVIDERS": "Providers",
   "LOCATIONS": "Locations",
-  "SPECIALITIES": "Specialities"
+  "SPECIALITIES": "Specialities",
+  "APPOINTMENT_PATIENT_SEARCH_LABEL": "Search Patient"
 }

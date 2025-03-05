@@ -147,6 +147,8 @@
   "PLACEHOLDER_SERVICE_TYPE_DURATION_MIN": "min",
   "APPOINTMENT_STATUS_CHANGE_CONFIRM_MESSAGE": "¿Está seguro de que desea marcar la cita como {{toStatus}}?",
   "CHECK_IN_APPOINTMENT_TIME_VALIDATION": "Ingrese una hora de registro válida.",
+  "YES_KEY": "Sí",
+  "NO_KEY": "No",
   "UNDO_CHECK_IN_APPOINTMENT": "Deshacer registro",
   "RESET_APPOINTMENT": "Restablecer cita",
   "APPOINTMENT_UNDO_CHECKIN_CONFIRM_MESSAGE": "¿Está seguro de que desea deshacer el registro?",
@@ -192,6 +194,7 @@
   "APPOINTMENT_NOTES": "Notas",
   "TODAY_LABEL": "Hoy",
   "APPOINTMENT_DATE_LABEL": "Fecha de la cita",
+  "REGULAR_APPOINTMENT_LABEL": "Cita Regular",
   "RECURRING_APPOINTMENT_LABEL": "Cita recurrente",
   "WALK_IN_APPOINTMENT_LABEL": "Cita sin cita previa",
   "PLAN_LABEL": "Plan",
@@ -269,5 +272,6 @@
   "TELECONSULTATION_APPOINTMENT_BOOKING_MESSAGE": "Una cita de teleconsulta para #patientName, #patientId en #dateTime para #service está reservada en #clinicName. Haga clic en el enlace #meetingLink el #dateTime para unirse a la consulta. Para cualquier consulta llámenos al #helpDeskNumber.",
   "PROVIDERS": "Proveedores",
   "LOCATIONS": "Ubicaciones",
-  "SPECIALITIES": "Especialidades"
+  "SPECIALITIES": "Especialidades",
+  "APPOINTMENT_PATIENT_SEARCH_LABEL": "Buscar paciente" 
 }
