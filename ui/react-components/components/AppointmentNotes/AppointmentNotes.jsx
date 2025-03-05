@@ -4,7 +4,10 @@ import {injectIntl} from "react-intl";
 import { TextArea } from 'carbon-components-react'
 
 const AppointmentNotes = (props) => {
-    const {intl, onChange, value} = props;
+    const { intl, onChange, value } = props;
+    const notesText = intl.formatMessage({
+        id: 'NOTES_LABEL_TEXT', defaultMessage: 'Notes'
+    });
     const placeHolder = intl.formatMessage({
         id: 'PLACEHOLDER_APPOINTMENT_NOTES_MAX_LENGTH', defaultMessage: 'Maximum of 250 characters'
     });
@@ -17,7 +20,7 @@ const AppointmentNotes = (props) => {
     }
     return (<div data-testid="notes">
             <TextArea value={notes || ""} onChange={handleChange} onBlur={onChange}
-                      data-testid="notes" maxCount={250} labelText={"Notes"} enableCounter={true}
+                      data-testid="notes" maxCount={250} labelText={notesText} enableCounter={true}
                       placeholder={placeHolder}/>
         </div>
     )
