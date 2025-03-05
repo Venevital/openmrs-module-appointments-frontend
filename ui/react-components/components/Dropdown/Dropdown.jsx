@@ -18,7 +18,9 @@ const Dropdown = (props) => {
     selectedValue,
     autoFocus,
     isRequired,
+    intl
   } = props;
+  const chooseLabel = intl.formatMessage({ id: "CHOOSE_LABEL", defaultMessage: "Choose an option" });
   const filterItems = data => {
     return data.item.label.toLowerCase().includes(data.inputValue.toLowerCase());
   }
@@ -49,7 +51,7 @@ const Dropdown = (props) => {
           disabled={isDisabled}
           style={{ width: '250px' }}
           shouldFilterItem={filterItems}
-          placeholder={"Choose an option"}
+          placeholder={chooseLabel}
           selectedItem={selectedValue}
       />
     </div>
@@ -59,6 +61,7 @@ const Dropdown = (props) => {
 export default injectIntl(Dropdown);
 
 Dropdown.propTypes = {
+  intl: PropTypes.object.isRequired,
   options: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
   placeholder: PropTypes.string,
   onChange: PropTypes.func,
