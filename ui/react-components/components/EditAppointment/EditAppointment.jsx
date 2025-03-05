@@ -665,7 +665,7 @@ const EditAppointment = props => {
                             isDisabled={componentsDisableStatus.startDate}
                             minDate={getMinDate(appointmentDetails.appointmentDate)}
                             isRequired={requiredFields.appointmentStartDate}
-                            title={"Appointment date"}/>
+                            title={intl.formatMessage({id: 'APPOINTMENT_DATE_LABEL', defaultMessage: "Appointment date"})}/>
                         <ErrorMessage message={errors.appointmentDateError ? errorTranslations.dateErrorMessage : undefined}/>
                     </div>
                     <div style={{display: "flex"}}>

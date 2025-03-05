@@ -246,6 +246,7 @@
   "DAY_LABEL": "Day(s)",
   "REPEATS_EVERY_LABEL": "Repeats every",
   "REPEATS_ON_LABEL": "Repeats on",
+  "CHOOSE_LABEL": "Choose an Option",
   "STARTS_LABEL": "Starts",
   "ENDS_LABEL": "Ends",
   "FROM_LABEL": "From",
@@ -274,5 +275,6 @@
   "PROVIDERS": "Providers",
   "LOCATIONS": "Locations",
   "SPECIALITIES": "Specialities",
-  "APPOINTMENT_PATIENT_SEARCH_LABEL": "Search Patient"
+  "APPOINTMENT_PATIENT_SEARCH_LABEL": "Search Patient",
+  "APPOINTMENT_CREATED_MESSAGE": "Appointment Created!"
 }

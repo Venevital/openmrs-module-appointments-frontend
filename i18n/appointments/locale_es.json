@@ -194,6 +194,7 @@
   "APPOINTMENT_NOTES": "Notas",
   "TODAY_LABEL": "Hoy",
   "APPOINTMENT_DATE_LABEL": "Fecha de la cita",
+  "APPOINTMENT_START_DATE": "Fecha de inicio de la cita",
   "REGULAR_APPOINTMENT_LABEL": "Cita Regular",
   "RECURRING_APPOINTMENT_LABEL": "Cita recurrente",
   "WALK_IN_APPOINTMENT_LABEL": "Cita sin cita previa",
@@ -275,5 +276,6 @@
   "PROVIDERS": "Proveedores",
   "LOCATIONS": "Ubicaciones",
   "SPECIALITIES": "Especialidades",
-  "APPOINTMENT_PATIENT_SEARCH_LABEL": "Buscar paciente" 
+  "APPOINTMENT_PATIENT_SEARCH_LABEL": "Buscar paciente",
+  "APPOINTMENT_CREATED_MESSAGE": "¡Cita creada!"
 }

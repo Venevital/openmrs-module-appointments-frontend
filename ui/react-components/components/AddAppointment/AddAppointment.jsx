@@ -167,7 +167,8 @@ const AddAppointment = props => {
         id: 'AFTER_LABEL', defaultMessage: 'After'
     });
     const repeatsEvery = intl.formatMessage({id: 'REPEATS_EVERY_LABEL', defaultMessage: "Repeats Every"});
-    const ends = intl.formatMessage({id: "ENDS_LABEL", defaultMessage: "Ends"});
+    const ends = intl.formatMessage({ id: "ENDS_LABEL", defaultMessage: "Ends" });
+    const chooseLabel = intl.formatMessage({ id: "CHOOSE_LABEL", defaultMessage: "Choose an option" });
     const statusPlaceHolder = intl.formatMessage({
         id: 'PLACEHOLDER_APPOINTMENT_CREATE_APPOINTMENT_STATUS', defaultMessage: "Appointment status"
     });
@@ -603,7 +604,7 @@ const AddAppointment = props => {
                                 }}
                                 minDate={moment().format("MM-DD-YYYY")}
                                 isRequired={requiredFields.recurringStartDate}
-                                title={"Appointment start date"}/>
+                                title={intl.formatMessage({id: 'APPOINTMENT_START_DATE', defaultMessage: "Appointment start date"})}/>
                             <ErrorMessage message={errors.startDateError ? errorTranslations.dateErrorMessage : undefined}/>
                         </div>
                         <div style={{display: "flex"}}>
@@ -667,7 +668,7 @@ const AddAppointment = props => {
                                 </div>
                                 <div style={{minWidth: "120px", verticalAlign: "bottom"}}>
                                     <Dropdown id={"recurrence-type"} options={recurringTypeOptions}
-                                              label={"Choose an option"}
+                                              label={chooseLabel}
                                               selectedValue={recurringTypeOptions[0]}
                                               onChange={event => {
                                                   updateAppointmentDetails({recurrenceType: event.selectedItem.value});
@@ -793,7 +794,7 @@ const AddAppointment = props => {
                                 }}
                                 minDate={moment().format("MM-DD-YYYY")}
                                 isRequired={requiredFields.appointmentStartDate}
-                                title={"Appointment date"}/>
+                                title={intl.formatMessage({id: 'APPOINTMENT_DATE_LABEL', defaultMessage: "Appointment date"})}/>
                             <ErrorMessage message={errors.appointmentDateError ? errorTranslations.dateErrorMessage : undefined}/>
                         </div>
                         <div style={{display: "flex"}}>

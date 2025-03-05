@@ -118,7 +118,7 @@
                     <input  id="date" type="date" ng-min="isEditMode() && !isEditAllowed()" min="{{today}}" required
                             ng-model="appointment.date"
                             ng-change="appointment.service && checkAvailability()"
-                            placeholder="Pick appointment date"
+                            placeholder={{'PICK_APPOINTMENT_DATE' | translate}}
                             ng-disabled="isEditMode() && isFieldEditNotAllowed()"/>
                     <span class="slots-remaining"></span>
                 </p>

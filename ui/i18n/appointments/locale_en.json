@@ -2,6 +2,7 @@
   "APPOINTMENTS_MANAGE": "Manage Appointments",
   "APPOINTMENTS_ADMIN": "Admin",
   "APPOINTMENT_PROVIDER": "Provider",
+  "APPOINTMENT_LOCATION": "Location",
   "SUMMARY": "Summary",
   "APPOINTMENT_LIST": "Appointments List",
   "CALENDAR_VIEW": "Calendar",
@@ -246,5 +247,6 @@
   "PROVIDERS": "Providers",
   "LOCATIONS": "Locations",
   "SPECIALITIES": "Specialities",
-  "APPOINTMENT_CREATED_MESSAGE": "Appointment Created!"
+  "APPOINTMENT_CREATED_MESSAGE": "Appointment Created!",
+  "PICK_APPOINTMENT_DATE": "Pick appointment date"
 }

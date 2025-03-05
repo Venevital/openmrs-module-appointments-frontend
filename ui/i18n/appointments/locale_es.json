@@ -2,6 +2,7 @@
   "APPOINTMENTS_MANAGE": "Gestionar Citas",
   "APPOINTMENTS_ADMIN": "Administrar",
   "APPOINTMENT_PROVIDER": "Proveedor",
+  "APPOINTMENT_LOCATION": "Ubicación",
   "SUMMARY": "Resumen",
   "APPOINTMENT_LIST": "Lista de Citas",
   "CALENDAR_VIEW": "Vista de Calendario",
@@ -246,5 +247,6 @@
   "PROVIDERS": "Proveedores",
   "LOCATIONS": "Ubicaciones",
   "SPECIALITIES": "Especialidades",
-  "APPOINTMENT_CREATED_MESSAGE": "¡Cita creada!"
+  "APPOINTMENT_CREATED_MESSAGE": "¡Cita creada!",
+  "PICK_APPOINTMENT_DATE": "Selecciona la fecha de la cita"
 }
