@@ -19,7 +19,7 @@ on:
 jobs:
   build-publish-docker-helm:
     name: Build & Publish Docker Image & Helm Chart
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     env:
       HELM_CHART_PATH: package/helm/
     steps:
